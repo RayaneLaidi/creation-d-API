@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+# Projet Nuxt - API JSONPlaceholder
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Description
 
-## Setup
+Ce projet est une application **Nuxt 3** qui utilise une API interne pour consommer les données de [JSONPlaceholder](https://jsonplaceholder.typicode.com).  
 
-Make sure to install dependencies:
+L'application permet :
 
-```bash
-# npm
-npm install
+- D'afficher les **10 premiers posts**.
+- De cliquer sur un post pour accéder à sa **page détaillée**.
+- D'afficher **le post et ses commentaires** sur une seule requête API.
+- D'ajouter un **commentaire**.
+- De **supprimer un commentaire**.
 
-# pnpm
-pnpm install
+Toutes les opérations passent par une **API interne Nuxt** que nous avons créée.
 
-# yarn
-yarn install
+---
 
-# bun
-bun install
-```
 
-## Development Server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
